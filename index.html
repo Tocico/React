@@ -17,8 +17,24 @@
     <div id="root"></div>
     <script type="text/babel">
         (()=>{
+            const name = 'toshiko';
+            const myTeam = {
+            center: <li>Benzo Walli</li>,
+            powerForward: <li>Rasha Loa</li>,
+            smallForward: <li>Tayshaun Dasmoto</li>,
+            shootingGuard: <li>Colmar Cumberbatch</li>,
+            pointGuard: <li>Femi Billon</li>
+            };
+            const theExample = (
+            <a href="https://www.example.com">
+                <h1>
+                Click me!
+                </h1>
+            </a>
+            );
             ReactDOM.render(
-                <p>Hello</p>,
+                <p>Hello! {theExample}</p>,
+            
                 document.getElementById('root')
             );
         })();
